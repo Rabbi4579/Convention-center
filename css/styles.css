@@ -1,0 +1,110 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.banner-1 {
+  background-image: url(../images/banner.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.banner-content {
+  max-width: 576px;
+  margin: 0 auto;
+}
+
+/* -------precious section start---- */
+.precious {
+  margin: 100px 0;
+  position: relative;
+}
+.explore-btn {
+  padding: 0;
+}
+/* .toast-btn{
+    position: absolute;
+    right: 10px;
+    top: 3px;
+} */
+
+/* ------our package section---- */
+.our-pakage {
+  margin: 100px;
+}
+
+.pakage-item {
+  transition: all linear 0.3s;
+  border-radius: 15px;
+  padding-top: 100px;
+}
+.package-inner {
+  padding: 10px;
+  border-radius: 26px;
+}
+.pakage-item:hover .package-inner {
+  background: #3f87f5;
+  box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+  border-radius: 26px;
+  transition: all linear 0.5s;
+}
+.our-pakage ul {
+  list-style: none;
+  padding: 0;
+}
+.our-pakage ul li {
+  margin-bottom: 5px;
+}
+.our-pakage ul li i {
+  margin-right: 10px;
+  border-radius: 50%;
+  color: #5243c2;
+  width: 15px;
+  height: 15px;
+  background: rgba(82, 67, 194, 0.103693);
+}
+.chooe-plan {
+  color: blue;
+  padding: 13px 60px;
+  border-radius: 24px;
+  border: none;
+  font-weight: 700;
+  font-weight: 24px;
+}
+
+.badge-icon {
+  position: absolute;
+  top: 80px;
+  right: 50px;
+  background-color: red;
+  border-radius: 20px;
+  border: 0;
+  padding: 5px 10px;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 14px;
+  transition: all linear 0.2s;
+  opacity: 0;
+  visibility: hidden;
+}
+.pakage-item:hover .badge-icon {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* ------card style------- */
+.card-style {
+  background: #ffffff;
+  box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.13);
+  border-radius: 5px;
+  padding-top: 30px;
+}
+.card-img-styles {
+  margin: 0 auto;
+}
+
+
+/* ---question---- */
+.question{
+    margin: 100px 0;
+}

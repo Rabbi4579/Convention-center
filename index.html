@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Convention Center</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script
+      src="https://kit.fontawesome.com/aab8388ef9.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Inter:wght@400;500;700&family=Lobster&family=Manrope&family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700&family=Roboto:wght@500;700&family=Rubik+Bubbles&family=Work+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- --------header part start------- -->
+    <header>
+      <nav class="navbar navbar-expand-md bg-body-white">
+        <div class="container">
+          <a class="navbar-brand fw-bold fs-3" href="#"
+            >Abacus Convention Center</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto my-3 fw-semibold">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >About Us</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Contact</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Subscribe</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- banner section -->
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="banner-1">
+              <div class="carousel-caption banner-content">
+                <h5 class="fs-1 fw-bold">
+                  The perfect venue for your next event
+                </h5>
+                <p class="fw-light fs-6">
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                  amet sint. Velit officia consequat duis enim velit
+                </p>
+                <button
+                  class="btn btn-light text-primary fw-bold fs-6 py-2 px-4 mb-3"
+                >
+                  Book Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+    <!-- --------header part end------- -->
+
+    <main>
+      <section class="container precious">
+        <div class="row align-items-center">
+          <div class="col-md-6 my-3 order-1">
+            <img class="img-fluid" src="images/wedding.png" alt="" />
+          </div>
+          <div class="col-md-6 order-md-2">
+            <h3>Every moment is Precious</h3>
+            <p>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </p>
+            <button class="btn btn-primary rounded-0 px-3">
+              Explore our album <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+
+          <!-- toast -->
+          <div
+            class="toast position-absolute left-0 bottom-100 show border border-0"
+            role="alert"
+            aria-live="assertive"
+            aria-atomic="true"
+          >
+            <div class="toast-header">
+              <p class="me-5 pe-3 fw-semibold align-items-center">
+                <i class="fa-solid fa-gift fs-4 text-primary me-2"></i>20% off
+                on next booking
+              </p>
+              <button
+                type="button"
+                class="btn-close position-absolute right-10 top-3 ms-0 toast-btn"
+                data-bs-dismiss="toast"
+                aria-label="Close"
+              ></button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- --------- Our package----------- -->
+
+      <section class="container our-pakage">
+        <h2 class="fs-2 fw-bold text-center">Our package</h2>
+        <div class="row gx-5 package-items">
+          <div class="col-lg-3 col-sm-6 pakage-item position-relative">
+            <div class="package-inner">
+              <h3 class="pakage-price fs-3 fw-bold">$300</h3>
+              <h4 class="package-title fs-5 fw-bold">Business fair</h4>
+              <p class="pakage-description fs-6 fw-normal">
+                For most businesses event like book fair, craft fair.
+              </p>
+
+              <ul class="">
+                <li class="">
+                  <i class="fa-solid fa-check"></i>limited space access
+                </li>
+                <li><i class="fa-solid fa-check"></i>Secuirty facility</li>
+                <li><i class="fa-solid fa-check"></i>event support</li>
+                <li><i class="fa-solid fa-check"></i>Decoration design</li>
+                <li><i class="fa-solid fa-check"></i>Per day bill</li>
+              </ul>
+              <button class="chooe-plan">Choose Plan</button>
+            </div>
+            <!-- badge -->
+            <button class="badge-icon">Hot</button>
+            <!-- badge -->
+          </div>
+          <div class="col-lg-3 col-sm-6 pakage-item position-relative">
+            <div class="package-inner">
+              <h3 class="pakage-price fs-3 fw-bold">$300</h3>
+              <h4 class="package-title fs-5 fw-bold">Business fair</h4>
+              <p class="pakage-description fs-6 fw-normal">
+                For most businesses event like book fair, craft fair.
+              </p>
+
+              <ul class="">
+                <li class="">
+                  <i class="fa-solid fa-check"></i>limited space access
+                </li>
+                <li><i class="fa-solid fa-check"></i>Secuirty facility</li>
+                <li><i class="fa-solid fa-check"></i>event support</li>
+                <li><i class="fa-solid fa-check"></i>Decoration design</li>
+                <li><i class="fa-solid fa-check"></i>Per day bill</li>
+              </ul>
+              <button class="chooe-plan">Choose Plan</button>
+            </div>
+            <!-- badge -->
+            <button class="badge-icon">Hot</button>
+            <!-- badge -->
+          </div>
+          <div class="col-lg-3 col-sm-6 pakage-item position-relative">
+            <div class="package-inner">
+              <h3 class="pakage-price fs-3 fw-bold">$300</h3>
+              <h4 class="package-title fs-5 fw-bold">Business fair</h4>
+              <p class="pakage-description fs-6 fw-normal">
+                For most businesses event like book fair, craft fair.
+              </p>
+
+              <ul class="">
+                <li class="">
+                  <i class="fa-solid fa-check"></i>limited space access
+                </li>
+                <li><i class="fa-solid fa-check"></i>Secuirty facility</li>
+                <li><i class="fa-solid fa-check"></i>event support</li>
+                <li><i class="fa-solid fa-check"></i>Decoration design</li>
+                <li><i class="fa-solid fa-check"></i>Per day bill</li>
+              </ul>
+              <button class="chooe-plan">Choose Plan</button>
+            </div>
+            <!-- badge -->
+            <button class="badge-icon">Hot</button>
+            <!-- badge -->
+          </div>
+          <div class="col-lg-3 col-sm-6 pakage-item position-relative">
+            <div class="package-inner">
+              <h3 class="pakage-price fs-3 fw-bold">$300</h3>
+              <h4 class="package-title fs-5 fw-bold">Business fair</h4>
+              <p class="pakage-description fs-6 fw-normal">
+                For most businesses event like book fair, craft fair.
+              </p>
+
+              <ul class="">
+                <li class="">
+                  <i class="fa-solid fa-check"></i>limited space access
+                </li>
+                <li><i class="fa-solid fa-check"></i>Secuirty facility</li>
+                <li><i class="fa-solid fa-check"></i>event support</li>
+                <li><i class="fa-solid fa-check"></i>Decoration design</li>
+                <li><i class="fa-solid fa-check"></i>Per day bill</li>
+              </ul>
+              <button class="chooe-plan">Choose Plan</button>
+            </div>
+            <!-- badge -->
+            <button class="badge-icon">Hot</button>
+            <!-- badge -->
+          </div>
+        
+        </div>
+      </section>
+
+      <section class="container client">
+        <div class="row text-center g-3">
+          <h2 class="my-5 fs-1 fw-bold">Happy Clients says</h2>
+          <div class="col-md-4">
+            <div class="card card-style" style="max-width: 22rem;">
+              <p class="text-center px-5">Slate helps you see how 
+                many more days you need 
+                to work to reach your financial 
+                goal for the month and year.</p>
+              <img src="images/person 1.png" class="card-img-top w-50 h-50  card-img-styles" alt="...">
+              <div class="card-body">
+                <h4 class="card-body-title">Regina Miles</h4>
+                <h5 class="card-body-sub-title">Banker</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-style" style="max-width: 22rem;">
+              <p class="text-center px-5">Slate helps you see how 
+                many more days you need 
+                to work to reach your financial 
+                goal for the month and year.</p>
+              <img src="images/person 2.png" class="card-img-top w-50 h-50  card-img-styles" alt="...">
+              <div class="card-body">
+                <h4 class="card-body-title">Regina Miles</h4>
+                <h5 class="card-body-sub-title">Banker</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-style" style="max-width: 22rem;">
+              <p class="text-center px-5">Slate helps you see how 
+                many more days you need 
+                to work to reach your financial 
+                goal for the month and year.</p>
+              <img src="images/person 3.png" class="card-img-top w-50 h-50  card-img-styles" alt="...">
+              <div class="card-body">
+                <h4 class="card-body-title">Regina Miles</h4>
+                <h5 class="card-body-sub-title">Banker</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container question">
+        <h2 class="text-center fw-bold fs-1 my-5 py-5">Frequently Asked Questions</h2>
+        <div class="row g-4">
+          <div class="col-lg-6 order-2">
+            <div class="accordion" id="accordionExample max-width-50">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    What’s the difference between event design and event planning? 
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>Event design and event planning work hand in hand to deliver a successful event.Events by Knight offer tailor made events. This means we incorporate both event design and event planning to create that perfect event.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    How early do we need to start planning an event
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>Event design and event planning work hand in hand to deliver a successful event.Events by Knight offer tailor made events. This means we incorporate both event design and event planning to create that perfect event.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    What is your refund and cancellation policy?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>Event design and event planning work hand in hand to deliver a successful event.Events by Knight offer tailor made events. This means we incorporate both event design and event planning to create that perfect event.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    What is your refund and cancellation policy?
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>Event design and event planning work hand in hand to deliver a successful event.Events by Knight offer tailor made events. This means we incorporate both event design and event planning to create that perfect event.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <img class="img-fluid" src="images/people.png" alt="">
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
